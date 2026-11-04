@@ -40,7 +40,7 @@ const validate = (state: FormState): FormErrors => {
 
 const inputClass = (hasError: boolean) => `field ${hasError ? '!border-red-400 !ring-red-400/20' : ''}`;
 
-function Field({ label, error, optional, children }: { label: string; error?: string; optional?: boolean; children: ReactNode }) {
+function Field({ label, error, optional, children }: { label: string; error?: string | undefined; optional?: boolean; children: ReactNode }) {
   return (
     <div>
       <span className="label">
