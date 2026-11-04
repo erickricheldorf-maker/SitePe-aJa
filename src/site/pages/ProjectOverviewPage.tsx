@@ -1,4 +1,4 @@
-import { ArrowRight, ClipboardCheck, PackageSearch } from 'lucide-react';
+import { ArrowRight, ClipboardCheck } from 'lucide-react';
 import type { PageId } from '@/site/hooks/usePageRoute';
 import AlternativesSection from '@/site/components/overview/AlternativesSection';
 import ChosenIdeaSection from '@/site/components/overview/ChosenIdeaSection';
